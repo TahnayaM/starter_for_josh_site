@@ -57,6 +57,14 @@ font-size:2,0em;
 /* do not pixel heights on divs- this is not responsive – instead padding on the children as a  percentage*/
     }
 
+.small_herobg {
+    width:100%;
+    background: url("images/small_header_bg.jpg") no-repeat center center;
+    background-size: cover;
+    height:40vh;/*make the background image cover the whole div proportionally*/
+/* do not pixel heights on divs- this is not responsive – instead padding on the children as a  percentage*/
+    }
+
 .herobg h1{
     font-family: 'Raleway', sans-serif;
    float:right; /* float the text to the right*/
